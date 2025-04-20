@@ -66,7 +66,9 @@ data-warehouse-project/
 - [Baraa Khatib Salkini’s Data Warehouse Tutorial](https://github.com/DataWithBaraa/sql-data-warehouse-project/)  
   This project was inspired by and follows the structure of the original work. Licensed under MIT.
 
+## 🛡️ License
 
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 
 
