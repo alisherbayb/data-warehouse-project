@@ -28,13 +28,6 @@ This project showcases a Data Warehouse implementation using PostgreSQL and PL/p
 | Silver | Cleaned, deduplicated, and structured data. Stored procedures applied here. |
 | Gold   | Business-ready Star Schema (fact & dimension views). Used for reporting.    |
 
-
-
-Layer | Description
-Bronze | Raw data loaded from source CSVs (CRM & ERP). No transformations applied.
-Silver | Cleaned, deduplicated, and structured data. Stored procedures applied here.
-Gold | Business-ready Star Schema (fact & dimension views). Used for reporting.
-
 ---
 
 ## 📂 Project Structure
