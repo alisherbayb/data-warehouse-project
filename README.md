@@ -14,9 +14,9 @@ This project showcases a Data Warehouse implementation using PostgreSQL and PL/p
 
 | Tool/Technology | Purpose                                 |
 |-----------------|-----------------------------------------|
-| PostgreSQL      | RDBMS used for storage and queries      |
-| PL/pgSQL        | Used to write stored procedures for ETL |
-| pgAdmin 4       | GUI tool for managing PostgreSQL        |
+| PostgreSQL      | RDBMS for storing and processing data   |
+| PL/pgSQL        | Stored procedures for transformation    |
+| pgAdmin 4       | Database management and development UI  |
 
 ---
 
