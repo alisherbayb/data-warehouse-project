@@ -12,14 +12,23 @@ This project showcases a Data Warehouse implementation using PostgreSQL and PL/p
 
 ## 🧰 Tech Stack
 
-Tool | Purpose
-PostgreSQL | RDBMS for storing and processing data
-PL/pgSQL | Stored procedures for transformation
-pgAdmin 4 | Database management and development UI
+| Tool/Technology | Purpose                                 |
+|-----------------|-----------------------------------------|
+| PostgreSQL      | RDBMS used for storage and queries      |
+| PL/pgSQL        | Used to write stored procedures for ETL |
+| pgAdmin 4       | GUI tool for managing PostgreSQL        |
 
 ---
 
 ## 🧱 Medallion Architecture Overview
+
+| Layer  | Description                                                                 |
+|--------|-----------------------------------------------------------------------------|
+| Bronze | Raw data loaded from source CSVs (CRM & ERP). No transformations applied.   |
+| Silver | Cleaned, deduplicated, and structured data. Stored procedures applied here. |
+| Gold   | Business-ready Star Schema (fact & dimension views). Used for reporting.    |
+
+
 
 Layer | Description
 Bronze | Raw data loaded from source CSVs (CRM & ERP). No transformations applied.
@@ -36,6 +45,7 @@ data-warehouse-project/
 ├── data/                           # Raw csv datasets from CRM and ERP
 │   ├──source_crm/
 │   ├──source_erp/
+│
 ├── docs/                               # Project documentation and architecture details
 │   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
