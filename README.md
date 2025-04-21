@@ -20,7 +20,11 @@ This project showcases a Data Warehouse implementation using PostgreSQL and PL/p
 
 ---
 
-## 🧱 Medallion Architecture Overview
+## 🧱 Architecture Overview
+
+![data_management](https://github.com/user-attachments/assets/26eb5e21-91e5-453c-9f5a-e2fb08d78ef8)
+
+
 
 | Layer  | Description                                                                 |
 |--------|-----------------------------------------------------------------------------|
